@@ -51,7 +51,7 @@ public class TimerInterfaceTestImplementation implements TimerInterface{
 
 	@Override
 	public TimingRequest scheduleRepeatin(ScheduledCommand command, int time) {
-		throw new RuntimeException("not implemented");
+		return schedule(command, time);
 	}
 	
 	
