@@ -6,6 +6,6 @@ public interface TimerInterface {
 
 	public TimingRequest schedule(ScheduledCommand command, int time);
 	
-	public TimingRequest scheduleRepeatin(ScheduledCommand command, int time);
+	public TimingRequest scheduleRepeating(ScheduledCommand command, int time);
 
 }

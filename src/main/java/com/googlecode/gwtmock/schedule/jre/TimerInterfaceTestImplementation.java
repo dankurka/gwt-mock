@@ -50,7 +50,7 @@ public class TimerInterfaceTestImplementation implements TimerInterface{
 	}
 
 	@Override
-	public TimingRequest scheduleRepeatin(ScheduledCommand command, int time) {
+	public TimingRequest scheduleRepeating(ScheduledCommand command, int time) {
 		return schedule(command, time);
 	}
 	

@@ -30,7 +30,7 @@ public class TimerInterfaceGwtImpl implements TimerInterface {
 	}
 
 	@Override
-	public TimingRequest scheduleRepeatin(final ScheduledCommand command, int time) {
+	public TimingRequest scheduleRepeating(final ScheduledCommand command, int time) {
 		final Timer timer = new Timer(){
 
 			@Override
